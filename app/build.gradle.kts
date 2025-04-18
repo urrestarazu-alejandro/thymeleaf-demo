@@ -12,10 +12,11 @@ dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    compileOnly("org.projectlombok:lombok:1.18.38")
     implementation("org.springframework.boot:spring-boot-starter-parent:3.4.4")
     implementation("org.springframework.boot:spring-boot-starter-web:3.4.4")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf:3.4.4")
-
+    implementation("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.4.0")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test:3.4.4")
     testImplementation("org.mockito:mockito-core")

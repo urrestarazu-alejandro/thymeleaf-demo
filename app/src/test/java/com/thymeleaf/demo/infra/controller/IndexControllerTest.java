@@ -21,6 +21,6 @@ class IndexControllerTest {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("index"))
-                .andExpect(model().attribute("name", "Juan"));
+                .andExpect(model().attribute("name", "Alejandro"));
     }
 }
